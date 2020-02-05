@@ -9,9 +9,11 @@
  *   13 times 4 is 52
  */
 function timesTable13(n) {
-  // This is your job. :)
 
-  // Use console.log to print out statements like "13 times 5 is 65"
+for (let i =0;i < n;i++){
+let multiple = 13 * (i+1);
+console.log(`13 times ${i+1} is ${multiple}`);
+}
 }
 
 if (require.main === module) {
@@ -28,5 +30,5 @@ if (require.main === module) {
   console.log('The first', input, 'multiples of 13 are:')
   timesTable13(input);
   console.log('----------------');
-  console.log();
+  console.log()
 }
